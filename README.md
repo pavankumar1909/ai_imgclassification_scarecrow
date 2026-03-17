@@ -24,11 +24,9 @@ pipreqs ./ --ignore (any_name)_env
      -- whenever you are not required to use venv or before closing the project 'deactivate' it by using simple cmd "deactivate" 
      
 # required version for project  
--- numpy        1.26.4  
--- ml-dtypes    0.3.1  
--- tensorflow   2.16.1  
--- mediapipe    0.10.x  
--- opencv       4.8.x  
+-- numpy==2.4.3
+-- opencv_python==4.13.0.92
+-- pyserial==3.5
 
 # functionalities of each module  
   dataset         - contains datasets and other required data to train the model  
